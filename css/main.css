@@ -28,9 +28,9 @@ header .logo{width: 3vw; margin: 1.5%; }
 header .menu_btn{display: none;}
 header nav{width: 40vw; position: relative; z-index: 100;}
 header nav>ul{display: flex; justify-content: space-between; margin: 2vw;}
-header nav>ul>li>a{font-size: 1vw; font-weight: bold; padding: 0 0.5vw; white-space: nowrap; }
-nav .close{display: none;}
-nav ul li a:hover{text-decoration: underline;}
+header nav>ul>li>a{font-size: 1vw; font-weight: bold;  padding-bottom: 1px; white-space: nowrap; position: relative;}
+nav ul li a:after{content: ""; height: 2px; width: 0; background-color: #212121; position: absolute; bottom: 0; left: 0;}
+nav ul li:hover>a:after{width: 100%;}
 section{background-position: center; background-size: cover; background-repeat: no-repeat;  width: 100%;}
 
 section.intro{background-image: url(../images/bg_1.jpg); position: relative; overflow: hidden;}
