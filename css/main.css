@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+@font-face {
+    font-family: 'Eulyoo1945-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{display: block; text-decoration: none; color: #212121; font-family: 'Noto Sans KR', sans-serif;}
+p{font-family: 'Noto Sans KR', sans-serif;}
+img{width: 100%;}
+html,body{width: 100%; color: #212121;}
+
+
+
+header{position: fixed; z-index: 98; width: 100%; height: 100px; top: 0; left: 0;}
+header .hd_wrap{width: 93%; margin: 0 auto; display: flex; flex-flow: row nowrap; justify-content: space-between; }
+header .logo{width: 3vw; margin: 1.5%; }
+header .menu_btn{display: none;}
+header nav{width: 40vw; position: relative; z-index: 100;}
+header nav>ul{display: flex; justify-content: space-between; margin: 2vw;}
+header nav>ul>li>a{font-size: 1vw; font-weight: bold; padding: 0 0.5vw; white-space: nowrap; }
+nav .close{display: none;}
+nav ul li a:hover{text-decoration: underline;}
+section{background-position: center; background-size: cover; background-repeat: no-repeat;  width: 100%;}
+
+section.intro{background-image: url(../images/bg_1.jpg); position: relative; overflow: hidden;}
+section.intro div{position: absolute; top: 0; left: 0; width: 100%;}
+section.intro .origin_bg{top: 0; transition: all 0.6s; }
+section.intro .origin_bg.active{top: 8px;}
+section.intro .white_bg{top: 1200px; transition: all 1.5s;}
+section.intro .white_bg.active{top: 0;}
+section.intro .title {width: 30vw; top: 100vw; transition: all 1s 1.5s; position: absolute; left: 11vw;}
+section.intro .title img:nth-child(2){width: 19vw; margin-left: 0.8vw;
+margin-top: 1.2vw;}
+section.intro .title.active{top: 19vw; }
+
+
+section.editable{background-image: url(../images/bg_3.jpg);}
+section.about_me{background-image: url(../images/bg_4.jpg);}
+section h1{text-align: center;}
+footer{width: 100%; }
+
+
+.intro .txt{width: 60vw; }
+.intro h1{font-size: 7.5vw; color: #d39700; font-family: 'Eulyoo1945-SemiBold';}
+.intro h2{color: #d39700; margin-left: 15.7vw; font-size: 1.9vw; margin-top: -0.8vw;}
+.intro .title img:first-child{width: 31.7vw;}
+.intro .title img:nth-child(2){width: 16vw; margin-top: 1.2vw;}
+
+
+.web .swiper1 {height: 100%;}
+.web .swiper1 .swiper-slide{width: 100%; height: 100%; background-position: center; background-size: cover; background-repeat: no-repeat; }
+.web .swiper1 .blackpink{background-image:url(../images/bg_blackpink.jpg);}
+.web .swiper1 .osulloc{background-image: url(../images/bg_osulloc.jpg);}
+.web .swiper1 .hotels{background-image: url(../images/bg_hotels.jpg);}
+.web .swiper1 .k2{background-image: url(../images/bg_K2.jpg);}
+.web .swiper1 .vips{background-image: url(../images/bg_vips.jpg);}
+.web .swiper1 .swiper-wrapper .w_wrap{width: 93vw; margin: 0 auto; padding-top: 11.5vw;}
+.web .swiper1 .swiper-wrapper .w_wrap .num{width: 0.9vw; float: left; margin-left: 2vw;
+margin-top: 7vw;}
+.web .swiper1 .swiper-wrapper .w_wrap .mokup1{width: 33vw; float: left; margin-left:8vw; margin-right: 5vw; margin-top: 1vw;}
+
+.web .swiper1 .swiper-wrapper .w_wrap .txt{float: left; margin-top: 0.5vw; margin-left: 1vw;}
+.web .swiper1 .swiper-wrapper .w_wrap .txt .num2{float: right; width: 5.5vw; margin-right: -10vw; margin-top: -1vw;}
+.web .swiper1 .swiper-wrapper .w_wrap .txt h2{font-size: 3.6vw; color: #e29eaf; margin-left: -0.5vw;  }
+.web .swiper1 .swiper-wrapper .w_wrap .txt h3{font-size: 2.32vw; font-weight: 500; margin-top: 0.15vw;}
+.web .swiper1 .swiper-wrapper .w_wrap .txt .p_txt{margin-top:2vw; margin-bottom: 3vw;}
+.web .swiper1 .swiper-wrapper .w_wrap .txt .p_txt p{font-size: 1vw; }
+.web .swiper1 .swiper-wrapper .w_wrap .txt .p_txt p span{font-weight: 700; margin-right: 0.5vw;}
+.web .swiper1 .swiper-wrapper .w_wrap .txt p img{width: 2.5vw; margin-bottom: -0.27vw; margin-left: 0.2vw;}
+
+.web .swiper1 .swiper-wrapper .w_wrap .txt p:nth-child(4){margin-top: 1vw;}
+
+.web .swiper1 .swiper-wrapper .w_wrap .btn{float: left; margin-top: 1.5vw;}
+.web .swiper1 .swiper-wrapper .w_wrap .btn div{width:8vw; float: left;}
+.web .swiper1 .swiper-wrapper .w_wrap .btn .web{margin-right: 1vw;}
+
+
+
+/* 블랙핑크 */
+.web .swiper1 .swiper-wrapper .blackpink .w_wrap .txt .num2{width: 5.8vw; margin-right: -7vw;}
+/* 빕스 */
+.web .swiper1 .swiper-wrapper .vips .w_wrap .txt p img{width: 3.9vw; margin-top: 0.27vw;}
+.web .swiper1 .swiper-wrapper .vips .w_wrap .txt h2{color: #921a1d; } 
+.web .swiper1 .swiper-wrapper .vips .w_wrap .txt .num2{width: 8vw; margin-right: -5.3vw;}
+/* 오설록 */
+.web .swiper1 .swiper-wrapper .osulloc .w_wrap .mokup1{width: 33.5vw; float: left;  margin-top: -5vw; margin-right: 6vw; }
+.web .swiper1 .swiper-wrapper .osulloc .txt{padding-left: -1vw; margin-left:-0.5vw; }
+.web .swiper1 .swiper-wrapper .osulloc .w_wrap h2{color: #6b754a; }
+.web .swiper1 .swiper-wrapper .osulloc .txt .num2{width:8vw; margin-right: -12.6vw;}
+.web .swiper1 .swiper-wrapper .osulloc .w_wrap .txt p img{width: 4vw;}
+.web .swiper1 .swiper-wrapper .osulloc .mobile{margin-top: 1.5vw;}
+/* 호텔스컴바인 */
+.web .swiper1 .swiper-wrapper .hotels .w_wrap .txt h2{color: #25afe4; }
+.web .swiper1 .swiper-wrapper .hotels .w_wrap .txt p img{width: 4vw;}
+.web .swiper1 .swiper-wrapper .hotels .txt .num2{width: 8vw; margin-left: 8vw;}
+/* K2 */
+.web .swiper1 .swiper-wrapper .k2 .w_wrap .txt h2{color: #3f4330;} 
+.web .swiper1 .swiper-wrapper .k2 .w_wrap .txt p img{width: 3.9vw;}
+.web .swiper1 .swiper-wrapper .k2 .txt .num2{width: 8.2vw; margin-right:-11vw;}
+
+
+.web .swiper1 .swiper-wrapper .b_right { margin-left: 83vw; margin-top: 35vw; }
+.web .swiper1 .swiper-wrapper .b_right>div{float: left;}
+.web .swiper1 .swiper-wrapper .b_right .txt {margin-right:1.5vw;}
+.web .swiper1 .swiper-wrapper .b_right .line{width: 3.5vw;  }
+.web .swiper1 .swiper-wrapper .osulloc .b_right{margin-left: 83.5vw;}
+.web .swiper1 .swiper-wrapper .hotels .b_right{margin-left: 84.3vw;}
+.web .swiper1 .swiper-wrapper .k2 .b_right{margin-left: 84.3vw;}
+
+
+.web .swiper1 .swiper-wrapper .w_wrap .txt h2{font-family: 'Noto Sans KR', sans-serif;font-weight: 600;}
+.web .swiper1 .swiper-wrapper .w_wrap .txt h3{font-family: 'Noto Sans KR', sans-serif;font-weight: 400;}
+
+
+
+.web .next{width: 3.7vw; top: 46vw; right: 44vw;}
+.web .prev{width: 3.7vw; top: 46vw; left: 46vw;}
+
+
+
+
+
+
+
+/* 편집 포트폴리오 */
+.editable h1{margin-top: -20vw; font-size: 1.9vw; margin-bottom: 2.3vw; font-family: 'Noto Sans KR', sans-serif;font-weight: 600;}
+.editable .gallery {width: 80%; margin: 0 auto; position: relative; margin-top: -0.5vw;}
+.editable .gallery ul li{position: absolute;}
+.editable .gallery ul li:nth-child(1){left: 4.6vw; top: 0.5vw;}
+.editable .gallery ul li:nth-child(2){left: 4.6vw; top: 19.4vw;}
+.editable .gallery ul li:nth-child(3){left: 26vw; top: 0.5vw;}
+.editable .gallery ul li:nth-child(4){left: 26vw; top: 13.1vw;}
+.editable .gallery ul li:nth-child(5){left: 26vw; top: 25.9vw;}
+.editable .gallery ul li:nth-child(6){right: 4.9vw; top: 0.5vw;}
+.editable .gallery ul li:nth-child(7){right: 4.9vw; top: 13.2vw;}
+.editable .gallery ul li:nth-child(8){right: 4.9vw; top: 25.9vw;}
+
+
+
+
+
+
+/* 어바웃 미 */
+.about_me{width: 93%; margin: 0 auto;}
+.about_me .nami{width: 22vw; float: left; margin-left: 15vw; margin-top: 6vw;}
+.about_me .about_wrap{margin-top: 7vw;}
+.about_me .about_wrap h1{font-family: 'Noto Sans KR', sans-serif;font-weight: 600;}
+.about_me .about_wrap h2{font-size: 1.5vw; font-family: 'Noto Sans KR', sans-serif; }
+.about_me .about_wrap p{margin-top: 0.2vw; margin-left: 0.3vw; line-height: 1.5vw; font-size:0.9vw;}
+.about_me h1{font-size: 2.3vw; margin-right:22vw; margin-bottom: 3vw;}
+.about_me .about_wrap .left{margin-left: 5vw; margin-right: 5vw;}
+.about_me .about_wrap .left .con{margin-bottom: 3vw;}
+.about_me .about_wrap .left .ex{margin-bottom: 3vw;}
+.about_me .about_wrap .right .cer{margin-bottom: 3vw;}
+.about_me .about_wrap>div{float: left;}
+.about_me .left .like .like_img{width: 14vw; margin-top: 1vw;}
+.about_me .right .skill .skill_img{width: 14vw; margin-top: 1vw;}
+.about_me .copy{margin-top: 29vw; margin-left: 53.5vw; width: 15vw; font-size: 0.8vw;}
+
+
+
+
+
+
+/* 팝업 갤러리 */
+.focus{width: 100%; height: 100%; background-color: rgba(0,0,0,0.8); position: fixed; z-index: 200; left: 0; top: 0; display: none;}
+.focus .container{width: 75%; /*position: absolute; left: 50%; top: 50%; transform: translateX(-50%) translateY(-50%);*/ margin: 0 auto; margin-top: 8vw;}
+.focus .popup_close{position: absolute; width: 60px; height: 60px; top: 50px; right: 50px;}
+.focus .swiper-container{width: 100%; /*display: none;*/}
+.focus .swiper-slide {height: 50vw;}
+.focus .container .swiper-container .fn_btn{top: 17.5vw; }
+.focus .container .swiper-container .fp_btn{top: 17.5vw;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
