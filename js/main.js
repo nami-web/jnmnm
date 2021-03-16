@@ -24,11 +24,22 @@ $(function(){
           });
           
                $('.title').addClass('active');
-          }      else{ $('.title').removeClass('active');
-                      
-                      
-                     }
-          
+          }     else if(index==2){
+                $('.nami').removeClass('active');
+            } 
+                else if(index==3){
+                $('.nami').removeClass('active');
+            } 
+                else if(index==4){
+                $('.nami').addClass('active');
+            } 
+            
+            else{ $('.title').removeClass('active'); } 
+           
+             
+            
+            
+            
         }
     });
 

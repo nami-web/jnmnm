@@ -153,8 +153,9 @@ margin-top: 7vw;}
 
 /* 어바웃 미 */
 .about_me{width: 93%; margin: 0 auto;}
-.about_me .nami{width: 22vw; float: left; margin-left: 15vw; margin-top: 6vw;}
-.about_me .about_wrap{margin-top: 7vw;}
+.about_me .nami{width: 22vw; float: left; margin-left: 15vw; margin-top: 9vw; opacity:0; transition: all 0.5s; transition-delay: 0.2s;}
+.about_me .nami.active{opacity: 1; margin-top: 6vw;}
+.about_me .about_wrap{margin-top: 6vw;}
 .about_me .about_wrap h1{font-family: 'Noto Sans KR', sans-serif;font-weight: 600;}
 .about_me .about_wrap h2{font-size: 1.5vw; font-family: 'Noto Sans KR', sans-serif; }
 .about_me .about_wrap p{margin-top: 0.2vw; margin-left: 0.3vw; line-height: 1.5vw; font-size:0.9vw;}
@@ -167,7 +168,7 @@ margin-top: 7vw;}
 .about_me .left .like .like_img{width: 14vw; margin-top: 1vw;}
 .about_me .right .skill .skill_img{width: 14vw; margin-top: 1vw;}
 .about_me .copy{margin-top: 29vw; margin-left: 53.5vw; width: 15vw; font-size: 0.8vw;}
-
+.about_me .pc_v{margin-left: 51.5vw; font-size: 0.7vw; margin-top: 0.2vw;}
 
 
 
