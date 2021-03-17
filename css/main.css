@@ -45,8 +45,8 @@ margin-top: 1.2vw;}
 section.intro .title.active{top: 19vw; }
 
 
-section.editable{background-image: url(../images/bg_3.jpg);}
-section.about_me{background-image: url(../images/bg_4.jpg);}
+section.editable{background-image: url(https://cdn.jsdelivr.net/gh/nami-web/jnmnm/images/bg_3.jpg);}
+section.about_me{background-image: url(https://cdn.jsdelivr.net/gh/nami-web/jnmnm/images/bg_4.jpg);}
 section h1{text-align: center;}
 footer{width: 100%; }
 
@@ -60,11 +60,11 @@ footer{width: 100%; }
 
 .web .swiper1 {height: 100%;}
 .web .swiper1 .swiper-slide{width: 100%; height: 100%; background-position: center; background-size: cover; background-repeat: no-repeat; }
-.web .swiper1 .blackpink{background-image:url(../images/bg_blackpink.jpg);}
-.web .swiper1 .osulloc{background-image: url(../images/bg_osulloc.jpg);}
-.web .swiper1 .hotels{background-image: url(../images/bg_hotels.jpg);}
-.web .swiper1 .k2{background-image: url(../images/bg_K2.jpg);}
-.web .swiper1 .vips{background-image: url(../images/bg_vips.jpg);}
+.web .swiper1 .blackpink{background-image:url(https://cdn.jsdelivr.net/gh/nami-web/jnmnm/images/bg_blackpink.jpg);}
+.web .swiper1 .osulloc{background-image: url(https://cdn.jsdelivr.net/gh/nami-web/jnmnm/images/bg_osulloc.jpg);}
+.web .swiper1 .hotels{background-image: url(https://cdn.jsdelivr.net/gh/nami-web/jnmnm/images/bg_hotels.jpg);}
+.web .swiper1 .k2{background-image: url(https://cdn.jsdelivr.net/gh/nami-web/jnmnm/images/bg_K2.jpg);}
+.web .swiper1 .vips{background-image: url(https://cdn.jsdelivr.net/gh/nami-web/jnmnm/images/bg_vips.jpg);}
 .web .swiper1 .swiper-wrapper .w_wrap{width: 93vw; margin: 0 auto; padding-top: 11.5vw;}
 .web .swiper1 .swiper-wrapper .w_wrap .num{width: 0.9vw; float: left; margin-left: 2vw;
 margin-top: 7vw;}
